@@ -129,12 +129,12 @@ Testnet
 
 ## 📸 Screenshots
 
-Contract screenshot-<img width="1905" height="990" alt="Screenshot 2026-03-20 142038" src="https://github.com/user-attachments/assets/c428dac3-6eee-43cb-8f58-d68d8610c1c5" />
 
-UI screenshot-<img width="1902" height="1029" alt="Screenshot 2026-03-20 153116" src="https://github.com/user-attachments/assets/3846284f-e8f9-438c-aba8-c497e132ea1f" />
-
+<img width="1905" height="990" alt="Screenshot 2026-03-20 142038" src="https://github.com/user-attachments/assets/e86e34ea-b832-41e6-9754-aef257009129" />
 
 
+
+<img width="1902" height="1029" alt="Screenshot 2026-03-20 153116" src="https://github.com/user-attachments/assets/d5d58fce-4853-4b3c-8bd5-59be45760cdd" />
 
 
 
