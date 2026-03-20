@@ -1,1 +1,195 @@
-# decentralised_market_place
+
+# 🛒 Decentralised Marketplace DApp (Soroban)
+
+A decentralized marketplace built using **Soroban smart contracts on the Stellar network**, enabling users to list, buy, and sell items in a trustless and transparent way.
+
+---
+
+## 📌 Overview
+
+This DApp allows users to:
+
+* Connect a Stellar wallet
+* List products on-chain
+* Purchase items securely
+* Execute trustless transactions via Soroban smart contracts
+
+All marketplace logic is handled on-chain, ensuring transparency, immutability, and security.
+
+---
+
+## 🚀 Features
+
+* 🔗 **Soroban Smart Contracts (Rust-based)**
+* 💼 **Wallet Integration (Freighter, etc.)**
+* 🛍️ **Product Listing System**
+* 💰 **Secure Buy/Sell Transactions**
+* 🔍 **On-chain Data Transparency**
+* ⚡ **Fast & Low-cost Transactions (Stellar Network)**
+
+---
+
+## 🧱 Tech Stack
+
+### Blockchain
+
+* Soroban (Stellar Smart Contracts)
+* Stellar Network
+
+### Smart Contracts
+
+* Rust
+
+### Frontend
+
+* React.js
+* Soroban Client / Stellar SDK
+
+---
+
+## ⚙️ How It Works
+
+1. User connects their wallet
+2. Seller lists an item
+3. Data is stored via Soroban contract
+4. Buyer purchases item
+5. Contract handles transaction logic securely
+
+---
+
+## 🛠️ Installation & Setup
+
+### Prerequisites
+
+* Rust & Cargo
+* Soroban CLI
+* Node.js & npm
+* Stellar wallet
+
+---
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Nistha-verse/decentralised_market_place.git
+cd decentralised_market_place
+```
+
+---
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### Build Contract
+
+```bash
+cargo build --target wasm32-unknown-unknown --release
+```
+
+---
+
+### Deploy Contract
+
+```bash
+soroban contract deploy \
+  --wasm target/wasm32-unknown-unknown/release/marketplace.wasm \
+  --source <your-account> \
+  --network testnet
+```
+
+---
+
+### Run Frontend
+
+```bash
+npm start
+```
+
+---
+
+## 📦 Smart Contract Details
+
+**Contract Address:**
+
+```
+CCUUGDMA4LBFWIDXHSM32DL37GOFJDIFVVVZDEJK4FDRUTMIAVIE6RKJ
+```
+
+**Network:**
+
+```
+Testnet
+
+---
+
+## 📸 Screenshots
+
+Contract screenshot-<img width="1905" height="990" alt="Screenshot 2026-03-20 142038" src="https://github.com/user-attachments/assets/c428dac3-6eee-43cb-8f58-d68d8610c1c5" />
+
+UI screenshot-<img width="1902" height="1029" alt="Screenshot 2026-03-20 153116" src="https://github.com/user-attachments/assets/3846284f-e8f9-438c-aba8-c497e132ea1f" />
+
+
+
+
+
+
+---
+
+## 📁 Project Structure
+
+```
+/contracts        → Soroban smart contracts (Rust)
+/src              → Frontend code
+/scripts          → Deployment scripts
+/screenshots      → App images
+```
+
+---
+
+## 🔒 Security Considerations
+
+* Audit smart contracts before production
+* Never expose private keys
+* Use testnet before mainnet deployment
+* Validate all inputs
+
+---
+
+## 🧪 Testing
+
+```bash
+cargo test
+```
+
+---
+
+## 🌱 Future Improvements
+
+* ⭐ Reputation system
+* ⚖️ Escrow mechanism
+* 📦 IPFS integration
+* 🔗 Multi-token support
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create a new branch
+3. Commit changes
+4. Open a PR
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+
